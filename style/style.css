@@ -1,0 +1,98 @@
+@font-face
+{
+	font-family: "elegantlux";
+	src: url(../fonts/elegantlux/elegantlux-mager-webfont.ttf);
+}
+@font-face
+{
+	font-family: "font-awesome";
+	src: url(../fonts/font-awesome/fonts/FontAwesome.ttf);
+}
+html {
+	text-align: center;
+	font-family: "elegantlux";
+}
+header {
+	background-image:url(../img/header.jpg);
+	background-size: cover;
+	text-align: center;
+	height: 444px;
+	width: 100%;
+	margin-top: 80px;
+
+}
+footer  {
+	background-color: #202020;
+}
+h1 {
+	font-size: 64px;
+	color: white;
+}
+p {
+	color: white;
+	font-size: 40px;
+}
+.photos {
+	margin: 40px;
+}
+.listas_footer {
+	display: inline-block;
+	margin: 40px;
+}
+.texto_nav {
+	font-size: 22px;
+	text-align: left;
+}
+.texto_footer {
+	color: white;
+	font-size: 18px;
+	text-align: left;
+	margin-right: 140px;
+	margin-left: 140px;
+	padding: 10px;
+}
+li:first-child {
+	color: grey;
+	margin-bottom: 20px;
+}
+.texto_footer a:visited {
+	color: white;
+	}
+.copyright {
+	text-align: center;
+	padding: 20px;
+}
+.cnt_vtcl {
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+li {
+	padding: 5px 0;
+}
+nav {
+	color: black;
+	padding: 10px 10px 20px 10px;
+	margin-bottom: 80px;
+	position: relative;
+}
+nav a {
+	margin: 0 20px;
+}
+.box_link {
+	padding: 20px;
+	background-color: black;
+	border-radius: 10px;
+	display: inline-block;
+	margin: 5px;
+}
+.nav_left {
+	float: left;
+	width: 500px;
+}
+.nav_right {
+	float: right;
+	position: absolute;
+	top: 40px;
+	right: 20px;
+}

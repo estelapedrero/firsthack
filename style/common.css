@@ -1,0 +1,64 @@
+*{
+	box-sizing: border-box;
+}
+.cf:before, .cf:after {
+	content:" ";
+	display: table;
+}
+.cf:after {
+	clear: both;
+}
+
+a:link {
+	text-decoration: none;
+	color:default;
+}
+a:visited {
+	text-decoration: none;
+	color:default;
+}
+.centrar_vertical {
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+/* ====== para centrar texto en relacion con imagen ====== */
+.flag {
+    display: table;
+    width: 100%;
+}
+
+    .flag__image,
+    .flag__body {
+        display: table-cell;
+        vertical-align: middle;
+
+        .flag--top & {
+            vertical-align: top;
+        }
+
+        .flag--bottom & {
+            vertical-align: bottom;
+        }
+
+    }
+
+    .flag__image {
+        padding-right: 10px;
+
+        > img {
+            display: block;
+            max-width: none;
+        }
+
+        .flag--rev & {
+            padding-right: 0;
+            padding-left: 10px;
+        }
+
+    }
+
+    .flag__body {
+        width: 100%;
+    }
